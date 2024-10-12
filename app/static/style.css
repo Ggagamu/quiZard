@@ -1,0 +1,51 @@
+/* Colors */
+body {
+    background-color: white;
+}
+
+h1, h2, h3 {
+    color: black;
+}
+
+.btn-primary {
+    background-color: red;
+    border-color: red;
+}
+
+.btn-secondary {
+    background-color: yellow;
+    border-color: yellow;
+    color: black;
+}
+
+/* Card Styles */
+.card {
+    border: 2px solid red;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: yellow;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(100px); }
+    to { transform: translateY(0); }
+}
+
+/* Animation Classes */
+.fade-in {
+    animation: fadeIn 1s ease-out;
+}
+
+.slide-in {
+    animation: slideIn 0.5s ease-out;
+}
