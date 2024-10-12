@@ -1,5 +1,6 @@
-# Quiz App
+# quiZard
 
+quiZard is a portmateau od quiz and wizard.
 This is a Flask-based quiz application where users can take quizzes, and answers are stored and managed in a SQLite database. The app features user authentication and a responsive design with a red, black, yellow, and white color scheme, along with simple animations.
 
 ## Features
