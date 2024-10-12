@@ -1,6 +1,7 @@
 # quiZard
 
-quiZard is a portmateau od quiz and wizard.
+quiZard is a portmateau of quiz and wizard.
+
 This is a Flask-based quiz application where users can take quizzes, and answers are stored and managed in a SQLite database. The app features user authentication and a responsive design with a red, black, yellow, and white color scheme, along with simple animations.
 
 ## Features
@@ -25,8 +26,8 @@ This is a Flask-based quiz application where users can take quizzes, and answers
 
 ### Step 1: Clone the repository
 
-git clone https://github.com/your-repository/quiz_app.git
-cd quiz_app
+git clone https://github.com/Ggagamu/quiZard.git
+cd quiZard
 
 ### Step 2: Set up a virtual environment
 python -m venv venv
